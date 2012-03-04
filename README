@@ -1,0 +1,11 @@
+FinderRestarter is a plugin for Intellij IDEA that tries to fix Smart Completion on Mac
+OS X. 
+
+When you use Intellij IDEA with Google Chrome on Mac OS X, every time you open a
+new tab in Chrome, Smart Completion in Intellij IDEA stops working. The only way
+to fix this that I know is to restart Finder. This plugin makes it every time
+when Idea gains focus.
+
+You can read more about the problem here:
+http://youtrack.jetbrains.com/issue/IDEA-71004
+and here: http://code.google.com/p/chromium/issues/detail?id=110364

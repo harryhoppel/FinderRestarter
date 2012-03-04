@@ -1,0 +1,26 @@
+<idea-plugin version="2">
+  <name>Finder Restarter</name>
+  <description>Plugin that restarts Finder every time Idea gains focus(to fix Smart code completion)</description>
+  <version>1.0</version>
+  <vendor>harryhoppel</vendor>
+  <idea-version since-build="8000"/>
+
+  <application-components>
+    <!-- Add your application components here -->
+    <component>
+      <implementation-class>com.harryhoppel.FinderRestarter</implementation-class>
+    </component>
+  </application-components>
+
+  <project-components>
+    <!-- Add your project components here -->
+  </project-components>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+</idea-plugin>
